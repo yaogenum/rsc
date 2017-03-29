@@ -1,0 +1,2 @@
+# rsc
+resource service control
