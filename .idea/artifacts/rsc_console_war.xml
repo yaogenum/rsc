@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rsc-console:war">
+    <output-path>$PROJECT_DIR$/rsc-console/target</output-path>
+    <root id="archive" name="rsc-console.war">
+      <element id="artifact" artifact-name="rsc-console:war exploded" />
+    </root>
+  </artifact>
+</component>
