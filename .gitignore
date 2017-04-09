@@ -1,7 +1,10 @@
-*target/
+*target
 */*target/
+*.classpath
 */*.classpath
+*.project
 */*.project
+*.idea
 */*.idea
-*/*.iml
 *.iml
+*/*.iml
