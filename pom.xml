@@ -12,29 +12,45 @@
         <jetty.version>6.1.10</jetty.version>
         <junit.version>4.10</junit.version>
         <zk.version>3.4.9</zk.version>
+        <zk.client.version>0.1</zk.client.version>
+        <curator.client.version>3.2.1</curator.client.version>
     </properties>
     <modules>
         <module>rsc-qps</module>
         <module>rsc-console</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>${zk.version}</version>
-        </dependency>
-
-    </dependencies>
-
-
     <dependencyManagement>
+
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zk.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.github.sgroschupf/zkclient -->
+            <dependency>
+                <groupId>com.github.sgroschupf</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zk.client.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.client.version}</version>
+            </dependency>
+
+
+        </dependencies>
 
 
     </dependencyManagement>

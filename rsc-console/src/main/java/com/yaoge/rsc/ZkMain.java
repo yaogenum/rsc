@@ -8,7 +8,7 @@ import org.apache.zookeeper.*;
 public class ZkMain {
     public static void main(String args[]) throws Exception {
         // 创建一个与服务器的连接 需要(服务端的 ip+端口号)(session过期时间)(Watcher监听注册)
-        ZooKeeper zk = new ZooKeeper("10.154.156.180:2181",
+        ZooKeeper zk = new ZooKeeper("127.0.0.1:2181",
                 3000, new Watcher() {
             // 监控所有被触发的事件
             public void process(WatchedEvent event) {
