@@ -8,7 +8,7 @@
 		<artifactId>rsc.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>rsc.qps</artifactId>
+	<artifactId>rsc.api</artifactId>
 	<name>rsc-qps</name>
 	<url>http://maven.apache.org</url>
 	<properties>
