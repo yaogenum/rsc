@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yaoge.rsc</groupId>
-        <artifactId>rsc-parent</artifactId>
+        <artifactId>rsc.parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>rsc-console</artifactId>
+    <artifactId>rsc.console</artifactId>
     <packaging>war</packaging>
-    <name>rsc-console Maven Webapp</name>
+    <name>rsc-console</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>

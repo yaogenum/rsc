@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.yaoge.rsc</groupId>
-    <artifactId>rsc-parent</artifactId>
+    <artifactId>rsc.parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>query Maven Parent</name>
+    <name>rsc</name>
     <url>http://maven.apache.org</url>
     <properties>
         <jetty.version>6.1.10</jetty.version>
@@ -18,6 +18,9 @@
     <modules>
         <module>rsc-qps</module>
         <module>rsc-console</module>
+        <module>rsc-api</module>
+        <module>rsc-service</module>
+        <module>rsc-rule</module>
     </modules>
     <dependencyManagement>
 
