@@ -1,7 +1,7 @@
 package com.yaoge.rsc;
 
 /**
- * Created by yaoge on 16/6/26.
+ * Created by yaoge on 16/6/26. for zkTest
  */
 public class TestSrc {
     public static void main(String args) {

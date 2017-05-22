@@ -31,6 +31,7 @@ public class ZkMain {
         zk.create("/testRootPath/testChildPathOne", "testChildDataOne".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         System.out.println(new String(zk.getData("/testRootPath", false, null)));
 
+
         // 取出子目录节点列表
         System.out.println(zk.getChildren("/testRootPath", true));
 
