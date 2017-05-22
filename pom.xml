@@ -16,7 +16,9 @@
         <curator.client.version>3.2.1</curator.client.version>
     </properties>
     <modules>
-        <module>rsc-qps</module>
+        <module>rsc-biz</module>
+        <module>rsc-dao</module>
+        <module>rsc-plugin</module>
         <module>rsc-console</module>
         <module>rsc-api</module>
         <module>rsc-service</module>

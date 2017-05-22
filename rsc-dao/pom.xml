@@ -8,8 +8,8 @@
 		<artifactId>rsc.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>rsc.qps</artifactId>
-	<name>rsc-qps</name>
+	<artifactId>rsc.dao</artifactId>
+	<name>rsc-dao</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
