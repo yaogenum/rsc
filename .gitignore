@@ -1,4 +1,3 @@
-*.iml
 *target
 */*target/
 *.classpath
@@ -9,3 +8,7 @@
 */*.idea
 *.iml
 */*.iml
+*.release
+*/*.release
+*.settings
+*/*.settings
