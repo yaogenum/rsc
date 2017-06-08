@@ -12,3 +12,5 @@
 */*.release
 *.settings
 */*.settings
+*.versionsBackup
+*D:/
